@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS django_db;
+USE django_db;
+
+CREATE TABLE IF NOT EXISTS t_order (
+  id INT AUTO_INCREMENT NOT NULL,
+  commands VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);

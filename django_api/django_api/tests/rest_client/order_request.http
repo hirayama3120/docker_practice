@@ -1,0 +1,6 @@
+POST http://localhost:8000/api/order/
+content-type: application/json
+
+{
+    "commands": "['ls', 'ls']"
+}
